@@ -1,0 +1,135 @@
+.card-title{
+    margin: 30px !important;
+    padding: 0px;
+}
+.color-saldo-1{
+    background-color: #B5435C !important;
+    color: #FFFFFF;
+}
+.color-saldo-2{
+    background-color: #810C33 !important;
+    color: #FFFFFF;
+}
+.color-saldo-3{
+    background-color: #4E000C !important;
+    color: #FFFFFF;
+}
+
+.nav-item * {
+    color: #696969 !important;
+}
+
+.section-image::after{
+    background-color: #F1F1F1 !important;
+}
+
+.wrapper-link-footer{
+    text-align: center;
+}
+
+.login-form{
+    border-radius: 15px;
+    background-color: #810C33 !important;
+}
+
+.login-form button{
+    color: black;
+}
+.login-form button:hover{
+    color: black;
+}
+.active * {
+    color: #FFFFFF !important;
+}
+
+.profile-photo{
+    text-align: center;
+}
+
+.profile-photo img{
+    border-radius: 50%;
+    max-height: 130px;
+}
+
+.logo-mini{
+    cursor: pointer;
+}
+
+.main-panel{
+    background-color: #f9fafb !important;
+}
+
+.navbar{
+    background-color: #f9fafb !important;
+    box-shadow: none !important;
+}
+.navbar-toggler-bar{
+    color: #810c33 !important;
+    background-color: #810c33 !important;
+}
+.navbar-title{
+    color: #810c33 !important;
+    font-size: 3em !important;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.expand-side
+ {
+    width: 50px !important;
+    overflow: hidden;
+}
+
+.sidebar:after, .off-canvas-sidebar:after{
+    background: #E8E8E8 !important;
+}
+
+.title{
+    color: #810c33;
+}
+
+.thead-color{
+    background-color: #ffeef2;
+}
+
+.thead-title{
+    color: #696969;
+    letter-spacing: 1px;
+}
+.saldo-title{
+    font-size: 1.5em;
+}
+.val{
+    font-size: 2.4em;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1400px) {
+    .saldo-title{
+        font-size: 1em;
+    }
+    .val{
+        font-size: 1.8em;
+        font-weight: 700;
+    }
+  }
+
+  @media only screen and (max-width: 1368px) {
+    .saldo-title{
+        font-size: 0.8em;
+    }
+    .val{
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .saldo-title{
+        font-size: 1em;
+    }
+    .val{
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+  }
