@@ -38,9 +38,6 @@
 .login-form button:hover{
     color: black;
 }
-.active * {
-    color: #FFFFFF !important;
-}
 
 .profile-photo{
     text-align: center;
